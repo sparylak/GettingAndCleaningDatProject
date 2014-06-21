@@ -2,12 +2,12 @@
 
 These data were collected from 30 subjects wearing a Samsung Galaxy S II smartphone on the waist.  Measurements from the smartphone's accelerometer and gyroscope were used to obtain data during the performance of 6 activities.  In the tidy.txt dataset, each subject is listed numerically in column 1 (Subject), with the following activities listed in column 2 (Activity):
 
-Walking
-WalkingUpstairs
-WalkingDownstairs
-Sitting
-Standing
-Laying
+* Walking
+* WalkingUpstairs
+* WalkingDownstairs
+* Sitting
+* Standing
+* Laying
 
 Each subject performed the above activities across a variable number of measurement periods.  Each row of the dataset represents the mean values obtained for each combination of subject and activity for all available timepoints.  
 
@@ -15,23 +15,23 @@ Each subject performed the above activities across a variable number of measurem
 
 The variables selected for analysis were the mean and standard deviation values of the following raw features collected from the accelerometer and gyroscope:
 
-timeBodyAccXYZ [Columns 3-8]
-timeGravityAccXYZ  [Columns 9-14]
-timeBodyAccJerkXYZ [Columns 15-20]
-timeBodyGyroXYZ [Columns 21-26]
-timeBodyGyroJerkXYZ [Columns 27-32]
-timeBodyAccMag [Columns 33-34]
-timeGravityAccMag [Columns 35-36]
-timeBodyAccJerkMag [Columns 37-38]
-timeBodyGyroMag [Columns 39-40]
-timeBodyGyroJerkMag [Columns 41-42]
-frequencyBodyAccXYZ [Columns 43-48]
-frequencyBodyAccJerkXYZ [Columns 49-54]
-frequencyBodyGyroXYZ [Columns 55-60]
-frequencyBodyAccMag [Columns 61-62]
-frequencyBodyAccJerkMag [Columns 63-64]
-frequencyBodyGyroMag [Columns 65-66]
-frequencyBodyGyroJerkMag [Columns 67-68]
+* timeBodyAccXYZ [Columns 3-8]
+* timeGravityAccXYZ  [Columns 9-14]
+* timeBodyAccJerkXYZ [Columns 15-20]
+* timeBodyGyroXYZ [Columns 21-26]
+* timeBodyGyroJerkXYZ [Columns 27-32]
+* timeBodyAccMag [Columns 33-34]
+* timeGravityAccMag [Columns 35-36]
+* timeBodyAccJerkMag [Columns 37-38]
+* timeBodyGyroMag [Columns 39-40]
+* timeBodyGyroJerkMag [Columns 41-42]
+* frequencyBodyAccXYZ [Columns 43-48]
+* frequencyBodyAccJerkXYZ [Columns 49-54]
+* frequencyBodyGyroXYZ [Columns 55-60]
+* frequencyBodyAccMag [Columns 61-62]
+* frequencyBodyAccJerkMag [Columns 63-64]
+* frequencyBodyGyroMag [Columns 65-66]
+* frequencyBodyGyroJerkMag [Columns 67-68]
 
 Further detail on the physical meaning of these features appears below, but briefly, 'XYZ' is used to denote 3-axial signals in the X, Y and Z directions.  'Acc' denotes acceleration.  'Mag' denotes magnitude.  Each of these features was summarized as mean and standard deviation values, denoted by "Mean" and "Std", respectively.  Recall that in this dataset we are averaging over Subject and Activity pairs.  Thus the "timeBodyAccMeanX" variable in column 3 denotes the average of the mean acceleration in the X direction of the body in the time domain.  Similarly, "timeBodyAccStdX" denotes the average of the standard deviation of the acceleration of the body in the X direction in the time domain.
 
